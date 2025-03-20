@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:   serif;
+    box-sizing: border-box;
+}
+body {
+    height: 196rem;
+    width: 100%;
+    position: relative;  
+    overflow-x: hidden;
+}
+.header {
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to right, #fe846d,#fe4c5a);
+    border-bottom-left-radius: 8rem;
+}
+.navbar {
+    z-index: 2;
+    height: 5rem;
+    width: 80%;
+    position:absolute;
+    top: 2rem;
+    left: 8rem;
+    display: flex;
+    flex-direction: row;
+}
+.navbar img:first-child {
+    height: 2.5rem;
+    margin-top: 20px;
+}
+
+.navbar span {
+    margin-left:10px;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+}
+.navbar span i {
+    font-style: normal;
+    color: rgba(255,255, 255,0.5);
+    font-size: 16px;
+    margin-right: 10px;
+}
+.navbar span i:hover {
+    text-decoration: underline white 1px;
+    color: white;
+    cursor: pointer;;
+}
+.navbar span  img:hover {
+    transform: rotate(180deg);
+
+    background-image: url("icon-arrow-light.svg");
+}
+.navbar .log {
+    position: absolute;
+    right: -4rem;
+    top: -0.50rem;
+}
+.navbar .log i {
+    margin-right: 60px;
+}
+.navbar .log .sign {
+    background: white;
+    color: #ff535d;
+    padding: 12px 30px 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.navbar .log .sign:hover {
+  background-color:  #ff7b86;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    z-index: 3;
+    padding-top: 10rem;
+}
+.para {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight:500;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn {
+    position: absolute;
+    left: 40%;
+    background: white;
+    border: none;
+    padding: 10px;
+    color: #fe4c5a;
+    font-weight: bold;
+    outline: none;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+.btn:hover {
+    background-color:  #ff7b86 ;
+    color: white;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.btn1 {
+    position: absolute;
+    right: 42%;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 38px;
+    font-weight: bold;
+}
+.btn1:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #fe4c5a;
+    transition: 1s;
+}
+.div1 .heading1 {
+    position: absolute;
+    font-size: 34px;
+    top: 40rem;
+    font-weight: 600;
+    left: 36%;
+}
+.div1 .title1 {
+    position: absolute;
+    font-size: 26px;
+    top: 50rem;
+    font-weight: 500;
+    left: 8rem;
+}
+.div1 .pg1 {
+    position: absolute;
+    font-size: 14px;
+    top: 54rem;
+    color: rgba(0, 0, 0, 0.8);
+     line-height: 2rem;
+     left: 8rem;
+}
+.div1 .title2 {
+    top: 68rem;   
+}
+.div1 .pg2 {
+    top: 72rem;
+}
+.div1 .editor {
+ position: absolute;
+ right: -18rem;
+ top: 35.50rem;
+}
+.div2 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 22rem;
+    top: 94rem;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background: linear-gradient(to left,#3d4061,#2f3044);
+}
+.div2 .heading1 {
+    position: absolute;
+    top: 6rem;
+    font-size: 32px;
+    color: white;
+    right: 14rem;
+}
+.div2 .pg1 {
+    position: absolute;
+    top: 10rem;
+    right: 15rem;
+    line-height: 1.80rem;
+    color: rgba(255,255,255, 0.7);
+    font-size: 14px;
+}
+ .phone {
+    position: absolute;
+    left: 7rem;
+    z-index: 1;
+    height: 30rem;
+    top: 91rem;
+}
+.div2 .circle {
+    position: absolute;
+    top: -24rem;
+    height: 50rem;
+    left: -8rem;
+    z-index: 0;
+}
+.div3 .title1 {
+    position: absolute;
+    font-size: 26px;
+    top: 132rem;
+    font-weight: 500;
+    right: 30rem;
+}
+.div3 .pg1 {
+    position: absolute;
+    font-size: 14px;
+    top: 136rem;
+    color: rgba(0, 0, 0, 0.8);
+     line-height: 2rem;
+     right: 16rem;
+}
+.div3 .title2 {
+    top:150rem;
+    right:31rem;
+}
+.div3 .pg2 {
+    top: 154rem;
+    right: 14.8rem;
+}
+.div3 .laptop {
+    position: absolute;
+    left: -20rem;
+    top: 120rem;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:  #24242c ;
+    height: 22rem;
+    border-top-right-radius: 100px;
+}
+.footer .logo {
+    position: absolute;
+    top: 4rem;
+    left: 10rem;
+}
+.footer .main {
+    display: flex;
+    position: absolute;
+    left: 24rem;
+    top: 5rem;
+}
+.footer .i {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 10rem;
+}
+.footer .product {
+    display: flex;
+    position: absolute;
+    top:8rem;
+    left: 34rem;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .product i {
+   font-style: normal;
+   font-weight:400;
+   font-size: 14px;
+   margin-top: 0.80rem;
+}
+.footer .product i:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer .company {
+    left: 47.60rem;
+}
+.footer .connect {
+    left: 61.70rem;
+}
+.item1 {
+    position: absolute;
+    height:7rem;
+    top: 6.50rem;
+    left: 34rem;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    display: none;
+    padding-top: 20px;
+}
+.item1 i {
+    font-style: normal;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.item1 i:hover {
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.item2 {
+    position: absolute;
+    height:8rem;
+    top: 6.50rem;
+    left: 15rem;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    display: none;
+    padding-top: 8px;
+}
+.item2 i {
+    font-style: normal;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.item2 i:hover {
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.item3 {
+    position: absolute;
+    height:8rem;
+    top: 6.50rem;
+    left: 24.50rem;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    display: none;
+}
+ 
+.item3 i {
+    font-style: normal;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.item3 i:hover {
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
